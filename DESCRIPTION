@@ -1,0 +1,12 @@
+Package: hurlong
+Type: Package
+Title: Functions for post-processing a Bayesian longitudinal hurdle model
+Version: 0.1.0
+Author: Dominic Magirr
+Maintainer: Dominic Magirr <d.magirr@gmail.com>
+Description: Post-processing of MCMC samples...
+    ...for a longitudinal hurdle model.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
