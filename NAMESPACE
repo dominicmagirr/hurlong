@@ -3,3 +3,5 @@
 export(get_marg_mean)
 export(get_ui_vi)
 export(marg_mean_q)
+export(marg_med)
+export(marg_pyk_q)

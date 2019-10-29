@@ -11,7 +11,8 @@ get_marg_pyk <- function(xi_col, eta_col, k, sigma_error, ui, vi, samples = FALS
   return(as.data.frame(t(quantile(marg_pyk, probs = c(0.025, 0.5, 0.975)))))
 }
 
-
+#' @export
+#'
 marg_pyk_q <- function(k, newdata, nsims, fit){
 
   ps <- posterior_samples(fit)

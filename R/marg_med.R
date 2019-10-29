@@ -30,7 +30,8 @@ get_med_for_given_col <- function(xi_col, eta_col, ks, sigma_error, ui, vi, samp
 }
 
 ##########################
-
+#' @export
+#'
 marg_med <- function(newdata, nsims, ks, fit){
 
   ps <- posterior_samples(fit)
